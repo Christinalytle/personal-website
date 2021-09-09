@@ -1,9 +1,3 @@
-/**
-* Template Name: Vesperr - v2.3.1
-* Template URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -275,7 +269,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 55vh;
+  height: 60vh;
 }
 
 #hero h1 {
@@ -317,7 +311,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 1024px) {
   #hero {
     /* background-attachment: fixed; */
-    margin-top: 100px; 
+    margin-top: 125px; 
     height: 60vh; 
   }
 }
@@ -392,7 +386,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 50px 0;
+  padding: 35px 0;
   overflow: hidden;
 }
 
