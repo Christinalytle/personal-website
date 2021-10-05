@@ -318,6 +318,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 991px) {
   #hero {
+    margin-top: 125px; 
     height: 60vh;
   }
 
@@ -338,6 +339,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   #hero {
+   
     margin-top: 10px;
   }
   #hero h1 {
@@ -356,7 +358,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 575px) {
   #hero {
-    margin-top: 75px;
+    margin-top: 25px;
     height: 55vh;
   }
   #hero .hero-img img {
@@ -425,6 +427,13 @@ section {
 
 .section-title p {
   margin: 15px 0 0 0;
+}
+
+@media (max-width: 575px) {
+  .section-title h2::before, .section-title h2::after{
+    width: 40px;
+  }
+  
 }
 
 /*--------------------------------------------------------------
@@ -751,9 +760,9 @@ section {
 # Features
 --------------------------------------------------------------*/
 .features .icon-box {
-  display: flex;
+  display: static;
   align-items: center;
-  padding: 20px;
+  padding: 15px;
   background: #f6f6f6;
   transition: ease-in-out 0.3s;
 }
