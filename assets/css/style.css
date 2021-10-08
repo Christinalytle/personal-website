@@ -314,20 +314,21 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 1024px) {
   #hero {
     /* background-attachment: fixed; */
-    margin-top: 125px; 
-    height: 60vh; 
+    margin-top: 10px; 
+    height: 100vh; 
+    
   }
 }
 
 @media (max-width: 991px) {
   #hero {
-    margin-top: 125px; 
-    height: 60vh;
+    margin-top: 10px; 
+    height: 100vh; 
   }
 
   #hero .container {
     margin-top: 60px;
-    margin-bottom: 40px; 
+    margin-bottom: 80px; 
   }
   #hero .animated {
     -webkit-animation: none;
@@ -367,7 +368,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 575px) {
   #hero {
     margin-top: 25px;
-    height: 55vh;
+    height: 60vh;
   }
   #hero .hero-img img {
     width: 80%;
